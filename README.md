@@ -88,3 +88,7 @@ lakukan migrasi data ke database baru
 ```
 php yii migrate
 ```
+
+### Demo
+- [REST API](http://api.muhamadalfan.com/v1)
+- [Client](http://client.muhamadalfan.com)

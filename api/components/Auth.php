@@ -120,7 +120,7 @@ class Auth extends \yii\filters\auth\AuthMethod
         }
 
         //check token default
-        if ($allowed && ($accessAuthKey === $defaultToken || $accessToken === $defaultToken)) {
+        if ($allowed && ($accessAuthKey === $defaultToken || $accessToken === $defaultToken || $request->pathInfo === 'v1')) {
             return true;
         }
 
